@@ -30,6 +30,10 @@ enabled=PackedStringArray("res://addons/GodotInk/plugin.cfg", "res://addons/gdUn
 
 ui/toolbar/run_overall=true
 
+[internationalization]
+
+locale/translations=PackedStringArray("res://i18n/strings.en.translation")
+
 [rendering]
 
 renderer/rendering_method="mobile"
