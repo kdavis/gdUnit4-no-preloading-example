@@ -5,4 +5,4 @@ extends GdUnitTestSuite
 @warning_ignore('return_value_discarded')
 
 func test_ready() -> void:
-	Audio.is_working = true
+	assert_bool(Audio.is_working).is_true()
