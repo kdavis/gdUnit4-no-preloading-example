@@ -8,6 +8,10 @@ var audio: Audio
 
 func before_test():
 	audio = Audio
+	audio._ready()
 
 func test_ready() -> void:
+	assert_bool(audio.is_ambient_playing).is_true()
+
+func test_ready2() -> void:
 	assert_bool(audio.is_ambient_playing).is_true()
