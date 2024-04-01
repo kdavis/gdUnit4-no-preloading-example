@@ -26,6 +26,10 @@ project/assembly_name="gdUnit-no-preloading-example"
 
 enabled=PackedStringArray("res://addons/gdUnit4/plugin.cfg")
 
+[gdunit4]
+
+ui/toolbar/run_overall=true
+
 [rendering]
 
 renderer/rendering_method="mobile"
