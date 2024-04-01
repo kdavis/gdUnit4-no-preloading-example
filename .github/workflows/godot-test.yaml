@@ -22,3 +22,4 @@ jobs:
         report-name: 'test-result.xml'
         version: 'installed'
         upload-report: false
+        project_dir: src
