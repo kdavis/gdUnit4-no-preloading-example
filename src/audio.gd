@@ -9,7 +9,6 @@ func _ready():
 	var audio_stream_player = AudioStreamPlayer.new()
 	audio_stream_player.bus = bus_ambient_name
 	self.add_child(audio_stream_player)
-	play_ambient_music()
 
 	if not is_ambient_playing and music_stream:
 		audio_stream_player.stream = music_stream
